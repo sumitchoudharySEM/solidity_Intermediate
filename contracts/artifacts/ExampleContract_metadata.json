@@ -54,41 +54,19 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "fail",
-				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getValue",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "newValue",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
-				"name": "setValue",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "value",
+				"name": "fail",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -96,7 +74,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -128,11 +106,11 @@
 	},
 	"sources": {
 		"contracts/error_handling.sol": {
-			"keccak256": "0xb23b06eb18e306a700b2afb1b6d477f20ba56477e4ee6aa7acbbb06b52929298",
+			"keccak256": "0x30c7e0d49624d3408b9d3cf7e90ed1ec3a4dc476c91e64e4f7dc49a20b4210e7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://065fd9a160a368a40b74fad0610e80f554409897bae707ed7c9cb9090e872682",
-				"dweb:/ipfs/QmYzP3HYwhR2BWLd4KrW2Uv8hwmCpaLQNKXF2jDiK1W8mh"
+				"bzz-raw://bab95e356d3623e6f5593ccb0c15360a045c91bd1fb4d3bfd2282fb44dff83c4",
+				"dweb:/ipfs/Qme5BvRdBi7vuFhPsjNsi7eNWFiekerFKoLFjijGFDToQw"
 			]
 		}
 	},
